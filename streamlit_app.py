@@ -142,7 +142,7 @@ elif options == 'Code':
 
     st.header('GitHub Repository')
     st.write('You can view the code and the dataset used in this web app from the GitHub repository:')
-    st.write('[GitHub Repository](https://github.com/gokulnpc)')
+    st.write('[GitHub Repository](https://github.com/gokulnpc/House-Price-Prediction)')
     st.write('--'*50)
 
     st.header('Google Colab')
@@ -161,5 +161,12 @@ elif options == 'About':
     st.write('- Bath: Number of bathrooms')
 
     st.write('The web app is open-source. You can view the code and the dataset used in this web app from the GitHub repository:')
-    st.write('[GitHub Repository](https://github.com/gokulnpc)')
+    st.write('[GitHub Repository](https://github.com/gokulnpc/House-Price-Prediction)')
     st.write('--'*50)
+
+    st.header('Contact')
+    st.write('You can contact me for any queries or feedback:')
+    st.write('Email: gokulnpc@gmail.com')
+    st.write('LinkedIn: [Gokuleshwaran Narayanan](https://www.linkedin.com/in/gokulnpc/)')
+    st.write('--'*50)
+
