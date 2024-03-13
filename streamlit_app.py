@@ -5,7 +5,7 @@ import pickle
 # Function to load the model
 @st.cache_data
 def load_model():
-    with open('saved _model/rf_model', 'rb') as file:
+    with open('rf_model', 'rb') as file:
         loaded_model = pickle.load(file)
     return loaded_model
 
