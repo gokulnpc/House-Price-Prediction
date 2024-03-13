@@ -116,7 +116,7 @@ if options == 'Prediction': # Prediction page
 elif options == 'Code':
     st.header('Code')
     # Add a button to download the Jupyter notebook (.ipynb) file
-    notebook_path = 'model/House_Price_Prediction.ipynb'
+    notebook_path = 'House_Price_Prediction.ipynb'
     with open(notebook_path, "rb") as file:
         btn = st.download_button(
             label="Download Jupyter Notebook",
@@ -129,7 +129,7 @@ elif options == 'Code':
 
     st.header('Data')
     # Add a button to download your dataset
-    data_path = 'data/Bengaluru_House_Data.csv'
+    data_path = 'Bengaluru_House_Data.csv'
     with open(data_path, "rb") as file:
         btn = st.download_button(
             label="Download Dataset",
